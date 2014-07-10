@@ -33,7 +33,7 @@ submissions:
         Enumerable & Collections: 0
         Code Sanitation: 0
     peer_evaluation:
-      notes: ""
+      notes: "all 4s. nuff said"
       rubric:
         Functional Expectations: 0
         Test-Driven Development: 0
@@ -96,7 +96,7 @@ submissions:
         Enumerable & Collections: 0
         Code Sanitation: 0
     peer_evaluation:
-      notes: ""
+      notes: "like, totally rad code, man."
       rubric:
         Functional Expectations: 0
         Test-Driven Development: 0
@@ -117,14 +117,15 @@ submissions:
         Enumerable & Collections: 0
         Code Sanitation: 0
     peer_evaluation:
-      notes: ""
+      notes: "Repository was not required in MerchantRepository. In your SE, why have accessor rather than reader? 14 errors in spec harness"
+      notes(2): "Overall, clean looking code, good use of the kernel and master find by methods."
       rubric:
-        Functional Expectations: 0
-        Test-Driven Development: 0
-        Encapsulation / Components: 0
-        Fundamental Ruby & Style: 0
-        Enumerable & Collections: 0
-        Code Sanitation: 0
+        Functional Expectations: 2 "Didn't run off the bat. Needed to require repository in Merchant before we could run the spec harness. Also, BI needs to be done."
+        Test-Driven Development: 3 "No real integration tests, lots of unit testing, but would've like to see more testing on edge cases and on BI"
+        Encapsulation / Components: 4 "nuff said."
+        Fundamental Ruby & Style: 3.5 "Existing code looks good, unsure about sustainability moving forward. Too much in SE, should move out into module."
+        Enumerable & Collections: 2.5 "Didn't get a chance to see enumerables because BI was not done."
+        Code Sanitation: 1 "By rubric, lines are too long. But it's readable and makes sense."
   Emily Davis & Cara Dennis:
     repository: git@github.com:emilyadavis303/sales_engine_davis_dennis.git
     setup_notes: ""
