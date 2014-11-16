@@ -59,3 +59,43 @@ Burbs people
 * Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
 * Google Maps (GeoCoder gem)
 * Open Colorado Meter dataset
+
+### [GoodDeeds]
+
+If this project gets selected, put **SELECTED** here
+
+### Pitch
+Help out your elderly neighbor with projects that are harder to do.
+
+### Description
+Help out the senior citizens in your neighborhood by doing some simple outdoor chores for them. Shoveling their driveway for the winter, mowing the lawn in the summer, etc. This act of kindness would be triggered by a weather alert and sending you a message that it's snowed and you could help out your neighbor by showveling their driveway. Taking it a step further, you could gamify it and give out badges for activities you do and how often you do them with your friends and/or neighbors
+
+
+### Target Audience
+Do gooders in the burbs
+
+### Integrations
+
+* Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
+* Google Maps (GeoCoder gem)
+* Unknown dataset--- trying to find one with Property Tax that typically has a senior citizen discount (which would be a way to find this information)
+* Census/Voter information overlayed?
+
+### [NeedToKnowItAll]
+
+If this project gets selected, put **SELECTED** here
+
+### Pitch
+Receive notifications on events happening around you.
+
+### Description
+Build an engine that takes data in and daily scrapes for new information. This could be used for new restaurants or businesses in the area (based on your home zipcode) or new crime.
+
+### Target Audience
+Burbs people
+
+### Integrations
+
+* Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
+* Google Maps (GeoCoder gem)
+* Any dataset could be used for this, I want to build the engine first and choose datasets to integrate. 
