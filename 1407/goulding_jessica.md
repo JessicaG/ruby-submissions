@@ -1,106 +1,4 @@
-### [BeerMe]
-
-If this project gets selected, put **SELECTED** here
-
-### Pitch
-Beer locator nearby you; filter by style, price and proximity.
-
-### Description
-An application that allows you to pull up your current location; then show all nearby breweries nearby you. You can search by style, price or proximity. As an authenticated user; you can star beers to try and leave notes. **If time allows** Pull in foursquare and allow users to checkin to the beer with foursquare (Untappd does this); and see where their friends are drinking.
-
-### Target Audience
-
-People looking for deals on beer and what's on tap as of recent.
-
-### Integrations
-
-* Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
-* Google Maps (GeoCoder gem)
-* Untappd
-* Taplister
-* http://openbeerdatabase.com/
-
-### [MeterMe]
-
-If this project gets selected, put **SELECTED** here
-
-### Pitch
-Allowing users to find the most cost efficient and effective parking meters nearby meeting location.
-
-### Description
-User enters their meeting location, enter a radius (1 mile) and find meters nearby that are .25 .50 or 1.00 per hour and can help dictate where they would park.
-
-### Target Audience
-People who drive and park downtown short term
-
-### Integrations
-
-* Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
-* Google Maps (GeoCoder gem)
-http://data.opencolorado.org/dataset/city-and-county-of-denver-parking-meters
-
-
-### [GitBlameH20]
-
-If this project gets selected, put **SELECTED** here
-
-### Pitch
-Find out how much water your neighbor is using and send them notices anonymously.
-
-### Description
-By week you get a water analysis from your neighborhood and the average usage from that week that is reasonable with the rainfall. If your neighbor used too much, you can send them a blame notice as a bad samaritan. If your neighbor used too little, you can send them a high five as a Colorado greenie.
-
-
-### Target Audience
-Burbs people
-
-### Integrations
-
-* Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
-* Google Maps (GeoCoder gem)
-* Open Colorado Meter dataset
-
-### [GoodDeeds]
-
-If this project gets selected, put **SELECTED** here
-
-### Pitch
-Help out your elderly neighbor with projects that are harder to do.
-
-### Description
-Help out the senior citizens in your neighborhood by doing some simple outdoor chores for them. Shoveling their driveway for the winter, mowing the lawn in the summer, etc. This act of kindness would be triggered by a weather alert and sending you a message that it's snowed and you could help out your neighbor by showveling their driveway. Taking it a step further, you could gamify it and give out badges for activities you do and how often you do them with your friends and/or neighbors
-
-
-### Target Audience
-Do gooders in the burbs
-
-### Integrations
-
-* Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
-* Google Maps (GeoCoder gem)
-* Unknown dataset--- trying to find one with Property Tax that typically has a senior citizen discount (which would be a way to find this information)
-* Census/Voter information overlayed?
-
-### [NeedToKnowItAll]
-
-If this project gets selected, put **SELECTED** here
-
-### Pitch
-Receive notifications on events happening around you.
-
-### Description
-Build an engine that takes data in and daily scrapes for new information. This could be used for new restaurants or businesses in the area (based on your home zipcode) or new crime.
-
-### Target Audience
-Burbs people
-
-### Integrations
-
-* Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
-* Google Maps (GeoCoder gem)
-* Any dataset could be used for this, I want to build the engine first and choose datasets to integrate.
-
-### [FindMyNeighborhood]
+### [FindMyNewHome]
 
 If this project gets selected, put **SELECTED** here
 
@@ -108,7 +6,7 @@ If this project gets selected, put **SELECTED** here
 Find the best value neighborhood for your ideals when house hunting.
 
 ### Description
-Enter in filters for what you're looking for, house price, proximity of restaurants, school levels, proximity to public transportation and ideal zip codes. This will then show you the different places that match up with your search, allowing you to find the most ideal home.
+Creating a search tool where you can enter in filters for what you're looking for, house price, parks, proximity of restaurants, school levels, proximity to public transportation and ideal zip codes. This will then show you the different places that match up with your search, allowing you to find the most ideal home. Once the filter is complete, sending them to a realtor.
 
 ### Target Audience
 Young families looking to invest in a home and finding the perfect match without the influence of a realtor.
@@ -120,3 +18,38 @@ Young families looking to invest in a home and finding the perfect match without
 * Google Maps (GeoCoder gem)
 * http://www.zillow.com/howto/api/APIOverview.htm
 * http://www.cde.state.co.us/schoolview
+* http://www.greatschools.org/api/docs/main.page
+* http://www.denvergov.org/maps/map/neighborhoods
+* SendGrid API to send summary of saved search results
+* Mashery to pull them all together if need be
+* http://www.denvergov.org/maps/map/parks
+* Commute Times: 15 minutes of school with certain rating 15 minutes  
+NICE TO HAVE:
+* http://www.denvergov.org/maps/map/afterschool
+* Twilio API to send alerts for new housing
+* Alan Smith project for pre-K API.
+
+### Project Planning
+Plan to Have - what features are expected to be in place by the end of the iteration
+Nice to Have - if things were a bit ahead of plan, how could the features go deeper / be better
+Uh oh - if things are really behind or going wrong, what cheats can be implemented or cuts made to get back on track
+
+11/20: Checkin
+Plan: Basic Rails application, deployed to VPS, bootstrap, Ruby Parsing of CSV, Acquire API keys, structure for how app should look, have a way to save search results to a profile
+Nice: Ruby intake of API's, using Alan's data for pre-K
+Shit: Deployed to local
+
+11/25: Checkin
+Plan: Alerts via SMS and Email for changes to listings, all APIs integrated
+Nice: Alerts on Dashboard, API Integratio: School API, SG, Geocoder, Twilio and Zillow, Commute time filter
+Shit:
+
+12/1: Checkin
+Plan: Cleaning up search capabilities, map views, adding neighborhood outline to search results, adding afterschool projects to lists
+Nice: Cleaning up search capabilities, map views, adding neighborhood outline to search results
+Shit: Things are working
+
+12/4: Evaluations
+Plan: Things are working
+Nice: Shit is covered and things look nice
+Shit: Bare minimum filter and search are working
