@@ -98,4 +98,25 @@ Burbs people
 
 * Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
 * Google Maps (GeoCoder gem)
-* Any dataset could be used for this, I want to build the engine first and choose datasets to integrate. 
+* Any dataset could be used for this, I want to build the engine first and choose datasets to integrate.
+
+### [FindMyNeighborhood]
+
+If this project gets selected, put **SELECTED** here
+
+### Pitch
+Find the best value neighborhood for your ideals when house hunting.
+
+### Description
+Enter in filters for what you're looking for, house price, proximity of restaurants, school levels, proximity to public transportation and ideal zip codes. This will then show you the different places that match up with your search, allowing you to find the most ideal home.
+
+### Target Audience
+Young families looking to invest in a home and finding the perfect match without the influence of a realtor.
+
+### Integrations
+
+* Twitter is the easiest probably as it doesn't need a lot of personal information (birthday, etc)
+* Google may also be beneficial if they give a zip code for the area.
+* Google Maps (GeoCoder gem)
+* http://www.zillow.com/howto/api/APIOverview.htm
+* http://www.cde.state.co.us/schoolview
